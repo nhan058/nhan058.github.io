@@ -1,0 +1,95 @@
+.banner {
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+  min-height: 60vh;
+  position: relative;
+  color: #fff;
+  text-align: center;
+}
+.name {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+.nav_bar {
+  position: relative;
+}
+.avt {
+  padding: 0 20px;
+  position: absolute;
+  transform: translate(-50%, -30%);
+}
+.bd-1,
+.bd-2,
+.bd-3,
+.bd-4 {
+  border-right: 1px solid rgb(201, 197, 197);
+}
+.bd-1,
+.bd-3 {
+  border-left: 1px solid rgb(201, 197, 197);
+}
+.TT-info {
+  list-style: none;
+  padding-left: 0;
+}
+.col {
+  height: auto;
+  border: 1px solid black;
+  margin: 10px 10px;
+}
+.job-info_items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr auto;
+  gap: 20px;
+}
+.time {
+  font-style: italic;
+  border-radius: 12px;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.cer_img {
+  width: 300px;
+  height: 180px;
+  margin-right: 20px;
+}
+.cer_text {
+  line-height: 2;
+}
+.cer_bor {
+  border-bottom: 3px solid rgb(243, 156, 26);
+}
+.cer_bor_2 {
+  border-left: 3px solid rgb(243, 156, 26);
+}
+
+.pro_gap {
+  column-gap: 10px;
+}
+.pro_img {
+  width: 100%;
+}
+/* Dự Án */
+.project_infomation {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: auto auto;
+  gap: 10px;
+}
+
+.timeline_box {
+  grid-column: 3/4;
+  grid-row: 1/-1;
+}
+.container_box {
+  border: 1px solid black;
+  box-shadow: 0px 0px 20px black;
+}

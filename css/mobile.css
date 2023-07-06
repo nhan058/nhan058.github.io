@@ -1,0 +1,49 @@
+@media (max-width: 576px) {
+  .nav_bar {
+    display: flex;
+    flex-direction: column;
+  }
+  .avt {
+    display: none;
+  }
+  .bd-1,
+  .bd-2,
+  .bd-3,
+  .bd-4 {
+    border-left: 0;
+    border-right: 0;
+  }
+  /*job-info*/
+  #job-info .job-info_items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cer_img {
+    width: 100%;
+  }
+  .cer_bor_2 {
+    border: none;
+  }
+  .cer_bor_1 {
+    border-bottom: 3px solid rgb(243, 156, 26);
+  }
+  .project_row {
+    display: block;
+  }
+  /*dự an*/
+  .project_infomation {
+    display: flex;
+    flex-direction: column;
+  }
+  .box_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box_block_tl {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+  }
+}
